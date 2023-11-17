@@ -2,7 +2,6 @@ input.onButtonPressed(Button.A, function () {
 	
 })
 hummingbird.startHummingbird()
-music.setVolume(64)
 basic.forever(function () {
-	
+    hummingbird.setLED(ThreePort.One, hummingbird.getSensor(SensorType.Distance, ThreePort.One) / 2)
 })
