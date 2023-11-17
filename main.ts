@@ -1,4 +1,7 @@
+input.onButtonPressed(Button.A, function () {
+	
+})
 hummingbird.startHummingbird()
 basic.forever(function () {
-    hummingbird.setPositionServo(FourPort.One, 90)
+	
 })
